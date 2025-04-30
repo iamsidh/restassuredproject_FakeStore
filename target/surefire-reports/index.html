@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.ProductTests" class="method navigator-link" hash-for-method="testGetAllProducts">testGetAllProducts</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.ProductTests" class="method navigator-link" hash-for-method="getSingleProductById">getSingleProductById</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -126,9 +126,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetAllProducts">
-                  </a> <!-- testGetAllProducts -->
-                  <span class="method-name">testGetAllProducts</span>
+                  <a name="getSingleProductById">
+                  </a> <!-- getSingleProductById -->
+                  <span class="method-name">getSingleProductById</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,9 +191,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testGetAllProducts')
+data.setCell(0, 1, 'getSingleProductById')
 data.setCell(0, 2, 'testcases.ProductTests')
-data.setCell(0, 3, 2018);
+data.setCell(0, 3, 2295);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
@@ -213,9 +213,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.ProductTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testGetAllProducts</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Surefire_suite" class="panel">
@@ -230,8 +237,8 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testGetAllProducts</span>
-                <span class="method-start">287 ms</span>
+                <span class="method-name">getSingleProductById</span>
+                <span class="method-start">340 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

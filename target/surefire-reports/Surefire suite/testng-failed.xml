@@ -6,7 +6,7 @@
       <class name="testcases.ProductTests">
         <methods>
           <include name="setup"/>
-          <include name="testGetAllProducts"/>
+          <include name="getSingleProductById"/>
         </methods>
       </class> <!-- testcases.ProductTests -->
     </classes>

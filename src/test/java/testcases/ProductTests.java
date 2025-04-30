@@ -22,4 +22,18 @@ public class ProductTests extends Base {
 
     }
 
+    @Test
+    public void getSingleProductById(){
+
+      int productId =  configReader.getIntProperty("productId");
+
+      given()
+        .pathParam("id", productId)
+      .when()
+        .get(Routes.GET_PRODUCT_BY_ID)
+      .then()
+        .log().body();
+
+    }
+
 }
