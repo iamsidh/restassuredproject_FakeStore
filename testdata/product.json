@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Wireless Mouse",
+    "price": 25.99,
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "image": "https://i.pravatar.cc/100?img=1",
+    "category": "electronics"
+  },
+  {
+    "title": "Bluetooth Headphones",
+    "price": 49.99,
+    "description": "Over-ear wireless headphones with noise cancellation.",
+    "image": "https://i.pravatar.cc/100?img=2",
+    "category": "audio"
+  },
+  {
+    "title": "USB-C Hub",
+    "price": 19.99,
+    "description": "Multiport adapter with HDMI and USB 3.0 ports.",
+    "image": "https://i.pravatar.cc/100?img=3",
+    "category": "electronics"
+  },
+  {
+    "title": "Smartphone Stand",
+    "price": 9.99,
+    "description": "Adjustable desk stand for smartphones and tablets.",
+    "image": "https://i.pravatar.cc/100?img=4",
+    "category": "electronics"
+  },
+  {
+    "title": "Wireless Keyboard",
+    "price": 29.99,
+    "description": "Slim Bluetooth keyboard with silent keys.",
+    "image": "https://i.pravatar.cc/100?img=5",
+    "category": "electronics"
+  },
+  {
+    "title": "Fitness Tracker",
+    "price": 45.99,
+    "description": "Smart fitness band with heart rate monitoring.",
+    "image": "https://i.pravatar.cc/100?img=6",
+    "category": "wearables"
+  },
+  {
+    "title": "Portable SSD 1TB",
+    "price": 109.99,
+    "description": "High-speed portable SSD with USB 3.1 support.",
+    "image": "https://i.pravatar.cc/100?img=7",
+    "category": "electronics"
+  },
+  {
+    "title": "Smartwatch",
+    "price": 129.99,
+    "description": "Fitness and notification tracking smartwatch.",
+    "image": "https://i.pravatar.cc/100?img=8",
+    "category": "wearables"
+  },
+  {
+    "title": "Gaming Mouse Pad",
+    "price": 14.99,
+    "description": "Large RGB gaming pad with non-slip base.",
+    "image": "https://i.pravatar.cc/100?img=9",
+    "category": "electronics"
+  },
+  {
+    "title": "Wireless Earbuds",
+    "price": 59.99,
+    "description": "Noise-isolating earbuds with charging case.",
+    "image": "https://i.pravatar.cc/100?img=10",
+    "category": "audio"
+  },
+  {
+    "title": "Smart LED Bulb",
+    "price": 12.99,
+    "description": "Wi-Fi enabled LED bulb with voice control.",
+    "image": "https://i.pravatar.cc/100?img=11",
+    "category": "electronics"
+  },
+  {
+    "title": "Bluetooth Speaker",
+    "price": 39.99,
+    "description": "Waterproof portable speaker with 12-hour playtime.",
+    "image": "https://i.pravatar.cc/100?img=12",
+    "category": "audio"
+  },
+  {
+    "title": "Streaming Webcam",
+    "price": 34.99,
+    "description": "1080p HD webcam with built-in microphone.",
+    "image": "https://i.pravatar.cc/100?img=13",
+    "category": "electronics"
+  },
+  {
+    "title": "Digital Alarm Clock",
+    "price": 22.99,
+    "description": "LED display clock with USB charging port.",
+    "image": "https://i.pravatar.cc/100?img=14",
+    "category": "electronics"
+  },
+  {
+    "title": "Bone Conduction Headphones",
+    "price": 69.99,
+    "description": "Open-ear design ideal for workouts and awareness.",
+    "image": "https://i.pravatar.cc/100?img=15",
+    "category": "audio"
+  },
+  {
+    "title": "Laptop Cooling Pad",
+    "price": 18.99,
+    "description": "Cooling stand with adjustable fans and height settings.",
+    "image": "https://i.pravatar.cc/100?img=16",
+    "category": "electronics"
+  },
+  {
+    "title": "Smart Ring",
+    "price": 89.99,
+    "description": "Wearable smart ring that tracks sleep and steps.",
+    "image": "https://i.pravatar.cc/100?img=17",
+    "category": "wearables"
+  },
+  {
+    "title": "Wireless Charger",
+    "price": 17.99,
+    "description": "Fast wireless charging pad for smartphones.",
+    "image": "https://i.pravatar.cc/100?img=18",
+    "category": "electronics"
+  },
+  {
+    "title": "Neckband Headphones",
+    "price": 44.99,
+    "description": "Flexible neckband design with rich bass.",
+    "image": "https://i.pravatar.cc/100?img=19",
+    "category": "audio"
+  },
+  {
+    "title": "Smart Glasses",
+    "price": 199.99,
+    "description": "AR-enabled glasses with Bluetooth audio.",
+    "image": "https://i.pravatar.cc/100?img=20",
+    "category": "wearables"
+  }
+]

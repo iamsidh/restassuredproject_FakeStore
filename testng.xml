@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Fake Store API Test Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReporter"></listener>
+    </listeners>
+    <test thread-count="5" name="ProductTests using POJO">
+        <classes>
+            <class name="testcases.ProductTests"/>
+        </classes>
+    </test>
+</suite>

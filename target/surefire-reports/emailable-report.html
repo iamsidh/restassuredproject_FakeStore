@@ -8,11 +8,41 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,925</td><td></td><td></td></tr>
+<tr><th colspan="8">Fake Store API Test Suite</th></tr>
+<tr><td><a href="#t0">ProductTests using POJO</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,140</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.ProductTests</td><td><a href="#m0">getSingleProductById</a></td><td rowspan="1">1746036176942</td><td rowspan="1">1474</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Fake Store API Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ProductTests using POJO &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.ProductTests</td><td><a href="#m0">testGetLimitedProducts</a></td><td rowspan="1">1746120036799</td><td rowspan="1">536</td></tr><tr><th colspan="4">ProductTests using POJO &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">testcases.ProductTests</td><td><a href="#m1">testAddNewProduct</a></td><td rowspan="1">1746120039657</td><td rowspan="1">809</td></tr><tr class="passedeven"><td><a href="#m2">testDeleteProduct</a></td><td rowspan="1">1746120040967</td><td rowspan="1">631</td></tr><tr class="passedeven"><td><a href="#m3">testGetAllCategories</a></td><td rowspan="1">1746120038454</td><td rowspan="1">518</td></tr><tr class="passedeven"><td><a href="#m4">testGetAllProducts</a></td><td rowspan="1">1746120033866</td><td rowspan="1">2313</td></tr><tr class="passedeven"><td><a href="#m5">testGetSingleProductById</a></td><td rowspan="1">1746120036222</td><td rowspan="1">573</td></tr><tr class="passedeven"><td><a href="#m6">testGetSortedProductsAscending</a></td><td rowspan="1">1746120037925</td><td rowspan="1">527</td></tr><tr class="passedeven"><td><a href="#m7">testGetSortedProductsDesceding</a></td><td rowspan="1">1746120037342</td><td rowspan="1">579</td></tr><tr class="passedeven"><td><a href="#m8">testProductsByCategory</a></td><td rowspan="1">1746120038976</td><td rowspan="1">677</td></tr><tr class="passedeven"><td><a href="#m9">testUpdateProduct</a></td><td rowspan="1">1746120040468</td><td rowspan="1">497</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">testcases.ProductTests#getSingleProductById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ProductTests using POJO</h2><h3 id="m0">testcases.ProductTests#testGetLimitedProducts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.ProductTests.testGetLimitedProducts(ProductTests.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.ProductTests#testAddNewProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.ProductTests#testDeleteProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.ProductTests#testGetAllCategories</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.ProductTests#testGetAllProducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.ProductTests#testGetSingleProductById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.ProductTests#testGetSortedProductsAscending</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.ProductTests#testGetSortedProductsDesceding</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.ProductTests#testProductsByCategory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.ProductTests#testUpdateProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

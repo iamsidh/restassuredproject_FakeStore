@@ -3,4 +3,12 @@ allure-results
 
 #logs
 logs
-logs/test-results.txt
+logs/test-res
+
+#reports
+reports
+
+#target
+target
+target/surefire-reports
+target/maven-status/
