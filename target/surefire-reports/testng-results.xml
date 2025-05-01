@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-30T23:13:39 IST" name="Surefire suite" finished-at="2025-04-30T23:13:42 IST" duration-ms="2851">
+  <suite started-at="2025-04-30T23:32:56 IST" name="Surefire suite" finished-at="2025-04-30T23:32:58 IST" duration-ms="1925">
     <groups>
     </groups>
-    <test started-at="2025-04-30T23:13:39 IST" name="Surefire test" finished-at="2025-04-30T23:13:42 IST" duration-ms="2851">
+    <test started-at="2025-04-30T23:32:56 IST" name="Surefire test" finished-at="2025-04-30T23:32:58 IST" duration-ms="1925">
       <class name="testcases.ProductTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductTests@1de76cc7]" started-at="2025-04-30T23:13:39 IST" name="setup" finished-at="2025-04-30T23:13:40 IST" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductTests@1de76cc7]" started-at="2025-04-30T23:32:56 IST" name="setup" finished-at="2025-04-30T23:32:56 IST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getSingleProductById()[pri:0, instance:testcases.ProductTests@1de76cc7]" started-at="2025-04-30T23:13:40 IST" name="getSingleProductById" finished-at="2025-04-30T23:13:42 IST" duration-ms="2295" status="PASS">
+        <test-method signature="getSingleProductById()[pri:0, instance:testcases.ProductTests@1de76cc7]" started-at="2025-04-30T23:32:56 IST" name="getSingleProductById" finished-at="2025-04-30T23:32:58 IST" duration-ms="1474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleProductById -->
