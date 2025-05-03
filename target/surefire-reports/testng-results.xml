@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-01T22:50:33 IST" name="Fake Store API Test Suite" finished-at="2025-05-01T22:50:41 IST" duration-ms="8140">
+  <suite started-at="2025-05-03T22:41:21 IST" name="Fake Store API Test Suite" finished-at="2025-05-03T22:41:32 IST" duration-ms="11339">
     <groups>
     </groups>
-    <test started-at="2025-05-01T22:50:33 IST" name="ProductTests using POJO" finished-at="2025-05-01T22:50:41 IST" duration-ms="8140">
+    <test started-at="2025-05-03T22:41:21 IST" name="ProductTests using POJO" finished-at="2025-05-03T22:41:32 IST" duration-ms="11339">
       <class name="testcases.ProductTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:33 IST" name="setup" finished-at="2025-05-01T22:50:33 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:21 IST" name="setup" finished-at="2025-05-03T22:41:22 IST" duration-ms="513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testGetAllProducts()[pri:0, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:33 IST" name="testGetAllProducts" finished-at="2025-05-01T22:50:36 IST" duration-ms="2313" status="PASS">
+        <test-method signature="testGetAllProducts()[pri:0, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:22 IST" name="testGetAllProducts" finished-at="2025-05-03T22:41:26 IST" duration-ms="3883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllProducts -->
-        <test-method signature="testGetSingleProductById()[pri:1, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:36 IST" name="testGetSingleProductById" finished-at="2025-05-01T22:50:36 IST" duration-ms="573" status="PASS">
+        <test-method signature="testGetSingleProductById()[pri:1, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:26 IST" name="testGetSingleProductById" finished-at="2025-05-03T22:41:26 IST" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSingleProductById -->
-        <test-method signature="testGetLimitedProducts()[pri:2, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:36 IST" name="testGetLimitedProducts" finished-at="2025-05-01T22:50:37 IST" duration-ms="536" status="FAIL">
+        <test-method signature="testGetLimitedProducts()[pri:2, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:26 IST" name="testGetLimitedProducts" finished-at="2025-05-03T22:41:27 IST" duration-ms="580" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -95,31 +95,31 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetLimitedProducts -->
-        <test-method signature="testGetSortedProductsDesceding()[pri:3, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:37 IST" name="testGetSortedProductsDesceding" finished-at="2025-05-01T22:50:37 IST" duration-ms="579" status="PASS">
+        <test-method signature="testGetSortedProductsDesceding()[pri:3, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:27 IST" name="testGetSortedProductsDesceding" finished-at="2025-05-03T22:41:28 IST" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSortedProductsDesceding -->
-        <test-method signature="testGetSortedProductsAscending()[pri:4, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:37 IST" name="testGetSortedProductsAscending" finished-at="2025-05-01T22:50:38 IST" duration-ms="527" status="PASS">
+        <test-method signature="testGetSortedProductsAscending()[pri:4, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:28 IST" name="testGetSortedProductsAscending" finished-at="2025-05-03T22:41:28 IST" duration-ms="590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSortedProductsAscending -->
-        <test-method signature="testGetAllCategories()[pri:5, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:38 IST" name="testGetAllCategories" finished-at="2025-05-01T22:50:38 IST" duration-ms="518" status="PASS">
+        <test-method signature="testGetAllCategories()[pri:5, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:28 IST" name="testGetAllCategories" finished-at="2025-05-03T22:41:29 IST" duration-ms="546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllCategories -->
-        <test-method signature="testProductsByCategory()[pri:6, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:38 IST" name="testProductsByCategory" finished-at="2025-05-01T22:50:39 IST" duration-ms="677" status="PASS">
+        <test-method signature="testProductsByCategory()[pri:6, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:29 IST" name="testProductsByCategory" finished-at="2025-05-03T22:41:30 IST" duration-ms="725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProductsByCategory -->
-        <test-method signature="testAddNewProduct()[pri:7, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:39 IST" name="testAddNewProduct" finished-at="2025-05-01T22:50:40 IST" duration-ms="809" status="PASS">
+        <test-method signature="testAddNewProduct()[pri:7, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:30 IST" name="testAddNewProduct" finished-at="2025-05-03T22:41:31 IST" duration-ms="1268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddNewProduct -->
-        <test-method signature="testUpdateProduct()[pri:8, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:40 IST" name="testUpdateProduct" finished-at="2025-05-01T22:50:40 IST" duration-ms="497" status="PASS">
+        <test-method signature="testUpdateProduct()[pri:8, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:31 IST" name="testUpdateProduct" finished-at="2025-05-03T22:41:31 IST" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateProduct -->
-        <test-method signature="testDeleteProduct()[pri:9, instance:testcases.ProductTests@15043a2f]" started-at="2025-05-01T22:50:40 IST" name="testDeleteProduct" finished-at="2025-05-01T22:50:41 IST" duration-ms="631" status="PASS">
+        <test-method signature="testDeleteProduct()[pri:9, instance:testcases.ProductTests@1349883]" started-at="2025-05-03T22:41:31 IST" name="testDeleteProduct" finished-at="2025-05-03T22:41:32 IST" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteProduct -->

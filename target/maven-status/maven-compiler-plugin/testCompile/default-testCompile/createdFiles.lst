@@ -1,6 +1,10 @@
+testcases\ProductDataDrivenTest.class
+utilities\DataProviders$1.class
 pojo\Products.class
 utilities\ConfigReader.class
 routes\Routes.class
+utilities\DataProviders.class
+utilities\ExtentReporter.class
 payloads\Payload.class
 testcases\ProductTests.class
 testcases\Base.class

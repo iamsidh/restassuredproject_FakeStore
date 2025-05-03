@@ -63,7 +63,7 @@ public class ProductTests extends Base {
         .when()
         .get(Routes.GET_PRODUCTS_WITH_LIMIT)
         .then()
-        .statusCode(201)
+        .statusCode(200)
         .body("size()", equalTo(limit))
         .log().body();
 

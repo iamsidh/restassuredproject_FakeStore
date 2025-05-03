@@ -12,3 +12,4 @@ reports
 target
 target/surefire-reports
 target/maven-status/
+target/classes
