@@ -2,8 +2,8 @@
 allure-results
 
 #logs
-logs
-logs/test-res
+#logs
+#logs/test-res
 
 #reports
 reports
