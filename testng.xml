@@ -3,9 +3,27 @@
     <listeners>
         <listener class-name="utilities.ExtentReporter"></listener>
     </listeners>
-    <test thread-count="5" name="ProductTests using POJO">
+    <test thread-count="5" name="Product Tests">
         <classes>
             <class name="testcases.ProductTests"/>
+        </classes>
+    </test>
+
+    <test thread-count="5" name="Users Test">
+        <classes>
+            <class name="testcases.UsersTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="5" name="Cart Test">
+        <classes>
+            <class name="testcases.CartTests"/>
+        </classes>
+    </test>
+
+    <test thread-count="5" name="Login Test">
+        <classes>
+            <class name="testcases.LoginTestcases"/>
         </classes>
     </test>
 </suite>

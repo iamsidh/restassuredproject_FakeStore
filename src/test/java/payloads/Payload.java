@@ -1,11 +1,17 @@
 package payloads;
 
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 import java.util.Random;
 
 import com.github.javafaker.Faker;
 
 import pojo.Address;
+import pojo.Cart;
+import pojo.CartProduct;
 import pojo.Geolocation;
+import pojo.Login;
 import pojo.Name;
 import pojo.Products;
 import pojo.Users;
@@ -57,6 +63,29 @@ public class Payload {
 
         Users user = new Users(email, username, password, name, address, phone);
         return user;
+    }
+
+    public static Cart cartsPayload(int userId) {
+
+        List<CartProduct> cartProducts = new ArrayList<CartProduct>();
+
+        int productId = random.nextInt(100);
+        int quantity = random.nextInt(10) + 1;
+
+        CartProduct cartProduct = new CartProduct(productId, quantity);
+
+        cartProducts.add(cartProduct);
+
+        return new Cart(userId, new Date(), cartProducts);
+
+    }
+
+    public static Login loginPayload(){
+
+        String username = faker.name().username();
+        String password = faker.internet().password();
+
+        return new Login(username, password);
     }
 
 }
